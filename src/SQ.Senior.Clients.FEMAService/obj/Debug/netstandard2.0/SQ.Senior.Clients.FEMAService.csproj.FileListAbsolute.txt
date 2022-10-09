@@ -1,0 +1,9 @@
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.FEMAService\bin\Debug\netstandard2.0\SQ.Senior.Clients.FEMAService.deps.json
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.FEMAService\bin\Debug\netstandard2.0\SQ.Senior.Clients.FEMAService.dll
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.FEMAService\bin\Debug\netstandard2.0\SQ.Senior.Clients.FEMAService.pdb
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.FEMAService\obj\Debug\netstandard2.0\SQ.Senior.Clients.FEMAService.csprojAssemblyReference.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.FEMAService\obj\Debug\netstandard2.0\SQ.Senior.Clients.FEMAService.AssemblyInfoInputs.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.FEMAService\obj\Debug\netstandard2.0\SQ.Senior.Clients.FEMAService.AssemblyInfo.cs
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.FEMAService\obj\Debug\netstandard2.0\SQ.Senior.Clients.FEMAService.csproj.CoreCompileInputs.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.FEMAService\obj\Debug\netstandard2.0\SQ.Senior.Clients.FEMAService.dll
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.FEMAService\obj\Debug\netstandard2.0\SQ.Senior.Clients.FEMAService.pdb

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SQ.Senior.Clients.DrxServices\SQ.Senior.Clients.DrxServices.csproj" />
+    <ProjectReference Include="..\SQ.Senior.Clients.QrsService\SQ.Senior.Clients.QrsService.csproj" />
+    <ProjectReference Include="..\SQ.Senior.Quoting.DatabaseAdapter\SQ.Senior.Quoting.DatabaseAdapter.csproj" />
+  </ItemGroup>
+
+</Project>

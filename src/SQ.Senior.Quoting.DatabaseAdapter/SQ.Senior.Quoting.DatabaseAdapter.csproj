@@ -1,0 +1,92 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Models\AgentVersionApplicantPrescription.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\AnthemContract.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ApplicantPrescription.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ApplicantProvider.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ApplicantTracking.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\AppLog.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\AQEApplicantPlan.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\AspNetUser.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\DrxEnrollmentLog.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\NetworkFip.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\Pharmacy.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\State.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\UserPlan.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZelisError.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZelisLog.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZelisNetwork.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZelisProvider.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZelisProviderType.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZelisProvider_Location.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZelisProvider_Location_Network.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZelisProvider_Location_Network_ProviderType.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZelisProvider_Location_Network_ProviderType_Specialty.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZelisSpecialty.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\ZipFipsMapping.cs">
+      <DependentUpon>ExQuoteEngine.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+</Project>

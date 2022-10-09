@@ -1,0 +1,18 @@
+namespace SQ.Senior.Clients.DrxServices.Models {
+    public static class PrescriptionFootnoteDescription {
+        public static string[] Description = {
+                                            "By law, this type of drug is excluded from coverage under the Medicare program; however, some plans, including this one, may cover this type of drug under a Part D supplemental benefit. Any amount that you spend for this type of drug is not counted toward any deductibles, initial coverage or out-of-pocket limits.",
+                                            "This type of drug is excluded from coverage under the Medicare program. This plan does not offer a supplement benefit for this type of drug. Any amount that you spend for this type of drug is not counted toward any deductibles, initial coverage or out-of-pocket limits. The drug cost displayed is only an estimate and actual cost may vary.",
+                                            "The initial fill of a prescription for this drug is available at $0.00 cost-sharing. Please contact your plan for details.",
+                                            "The price displayed for this drug may be lower than what you would typically pay during this period because of additional gap coverage offered by this plan.",
+                                            "This drug may only be available at certain pharmacies due to reasons such as special handling or requirements by the Food and Drug Administration. Please contact the plan for details.",
+                                            "Medicare Part D drug plans may have quantity limitations on their coverage for drugs offered under a supplemental benefit such as drugs for weight loss/gain or erectile dysfunction. These coverage limits are not subject to exception.",
+                                            "You may be charged a separate vaccine administration fee to get a vaccine at a network pharmacy. The maximum vaccine administration fee that you can be charged at a network pharmacy is {0}. Not all pharmacies provide and/or administer vaccines. If you are not getting the vaccine administered at a network pharmacy, please contact your plan for more information about vaccine administration charges.",
+                                            "This is a home infusion drug and is covered under enhanced medical (Part C) benefits. Please contact the plan for details.",
+                                            "You selected that you get this medicine from a mail order pharmacy. The cost displayed is what you would pay at a retail pharmacy.",
+                                            "Any amount you spend for a non-formulary drug is not counted towards the deductible, initial coverage limit or out-of-pocket costs UNLESS the plan approves a formulary exception. If an exception is approved, the non-formulary drug will be covered. The drug cost displayed is only an estimate and actual cost may vary. Please contact the plan for more information.",
+                                            "This drug is covered by the plan; however, the plan does not offer a benefit for the frequency and pharmacy type you selected. Therefore, the cost displayed is an estimate of the full cost of the drug for the frequency entered.",
+                                            "Your plan also provides coverage of this drug under a supplemental Part D benefit. Please contact your plan for additional information regarding how coverage under a supplemental benefit could impact the cost sharing estimate shown above for this drug.",
+                                      };
+    }
+}

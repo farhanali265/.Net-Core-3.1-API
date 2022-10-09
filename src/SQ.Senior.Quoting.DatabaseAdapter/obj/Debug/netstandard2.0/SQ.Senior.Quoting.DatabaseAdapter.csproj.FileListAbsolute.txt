@@ -1,0 +1,9 @@
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Quoting.DatabaseAdapter\bin\Debug\netstandard2.0\SQ.Senior.Quoting.DatabaseAdapter.deps.json
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Quoting.DatabaseAdapter\bin\Debug\netstandard2.0\SQ.Senior.Quoting.DatabaseAdapter.dll
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Quoting.DatabaseAdapter\bin\Debug\netstandard2.0\SQ.Senior.Quoting.DatabaseAdapter.pdb
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Quoting.DatabaseAdapter\obj\Debug\netstandard2.0\SQ.Senior.Quoting.DatabaseAdapter.AssemblyInfoInputs.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Quoting.DatabaseAdapter\obj\Debug\netstandard2.0\SQ.Senior.Quoting.DatabaseAdapter.AssemblyInfo.cs
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Quoting.DatabaseAdapter\obj\Debug\netstandard2.0\SQ.Senior.Quoting.DatabaseAdapter.csproj.CoreCompileInputs.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Quoting.DatabaseAdapter\obj\Debug\netstandard2.0\SQ.Senior.Quoting.DatabaseAdapter.dll
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Quoting.DatabaseAdapter\obj\Debug\netstandard2.0\SQ.Senior.Quoting.DatabaseAdapter.pdb
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Quoting.DatabaseAdapter\obj\Debug\netstandard2.0\SQ.Senior.Quoting.DatabaseAdapter.csprojAssemblyReference.cache

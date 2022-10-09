@@ -1,0 +1,8 @@
+{
+  "deploymentConfiguration": {
+      "maximumPercent": 200,
+      "minimumHealthyPercent": 100
+  },
+  "forceNewDeployment": true,
+  "healthCheckGracePeriodSeconds": 30
+}

@@ -1,0 +1,113 @@
+# Check our guides at https://confluence.atlassian.com/x/5Q4SMw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: mcr.microsoft.com/dotnet/core/sdk:3.1-bionic
+
+options:
+  size: 2x
+
+definitions:
+  services:
+    docker:
+      memory: 7128
+
+# Repeatable Steps
+commonBuildAndDeploy: &commonBuildAndDeploy
+  name: Docker Build and Deploy Image to Container Registry
+  script:
+    - apt-get update
+    - export DEBIAN_FRONTEND=noninteractive
+    - ln -fs /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
+    - apt-get install -y tzdata
+    - dpkg-reconfigure --frontend noninteractive tzdata
+    - apt-get install -y awscli docker
+    - sed -i -e "s|__NUGET_PAT__|$NUGET_PAT|g" nuget.config
+    - eval $(aws ecr get-login --region ${AWS_DEFAULT_REGION} --no-include-email)
+    - export TAG=${SERVICE_NAME}_${ENVIRONMENT}_${BITBUCKET_BUILD_NUMBER}
+    - export LABEL=${AWS_REGISTRY_URL}:$TAG
+    - >
+      docker build
+      -t $SERVICE_NAME:$TAG
+      -f $DOCKERFILE
+      --build-arg ENVIRONMENT=${ENVIRONMENT}
+      --build-arg ASPNETCORE_ENVIRONMENT=${ENVIRONMENT}
+      .
+    - >
+      docker tag 
+      ${SERVICE_NAME}:$TAG
+      $LABEL
+    - docker push $LABEL
+    - sed -i -e "s|__LABEL__|$LABEL|g" task-definition.json
+    - sed -i -e "s|__ENV__|${ENV}|g" task-definition.json
+    - sed -i -e "s|__ENVIRONMENT__|${ENVIRONMENT}|g" task-definition.json
+    - sed -i -e "s|__EXECUTION_ROLE_ARN__|${EXECUTION_ROLE}|g" task-definition.json
+    - sed -i -e "s|__TASK_ROLE_ARN__|${TASK_ROLE_ARN}|g" task-definition.json
+    - sed -i -e "s|__CLUSTER__|${CLUSTER}|g" task-definition.json
+    - sed -i -e "s|__SERVICE_NAME__|${SERVICE_NAME}|g" task-definition.json
+    - >
+      aws ecs register-task-definition
+      --family ${SERVICE_NAME}
+      --cli-input-json file://task-definition.json
+    - >
+      aws ecs update-service
+      --service ${SERVICE_NAME}
+      --task-definition ${SERVICE_NAME}
+      --cluster ${CLUSTER}
+
+    # The ecs wait timeout is 10 minutes so sleep for 3m gives some padding
+    - sleep 180
+    - >
+      aws ecs wait services-stable
+      --services ${SERVICE_NAME}
+      --cluster ${CLUSTER}
+  services:
+    - docker
+
+pipelines:
+  branches:
+    feature/*:
+      - step:
+          name: Build
+          caches:
+            - dotnetcore
+          script: # Modify the commands below to build your repository
+            - export SOLUTION_PATH=./
+            - sed -i -e "s|__NUGET_PAT__|$NUGET_PAT|g" nuget.config
+            - dotnet restore $SOLUTION_PATH
+            - dotnet build $SOLUTION_PATH -c $BUILD_CONFIGURATION
+            # Uncomment in order to automate running of test projects
+            # - dotnet test $TEST_NAME
+    develop:
+      # Common Build
+      - step:
+          name: Build and Git Tag
+          script: # Modify the commands below to build your repository
+            - export SOLUTION_PATH=./
+            - export VERSION_SYMVER="$VersionNumber.$BITBUCKET_BUILD_NUMBER"
+            - sed -i -e "s|__NUGET_PAT__|$NUGET_PAT|g" nuget.config
+            - dotnet restore $SOLUTION_PATH
+            - dotnet build $SOLUTION_PATH -c $BUILD_CONFIGURATION
+            # Uncomment in order to automate running of test projects
+            # - dotnet test $TEST_NAME
+            - git tag "SQ.Senior.QuotingService.$VERSION_SYMVER" -m "Release Candidate for SelectQuote Senior Quoting Services API v$VERSION_SYMVER"
+            - git push origin --tags
+      # Development
+      - step:
+          name: Deploy Service to Dev
+          deployment: development
+          <<: *commonBuildAndDeploy
+      # UAT
+      - step:
+          name: Deploy Service to UAT
+          deployment: uat
+          # comment to make this an automatic deployment.
+          trigger: manual
+          <<: *commonBuildAndDeploy
+      # Production
+      - step:
+          name: Deploy Service to Production
+          deployment: production
+          # comment to make this an automatic deployment.
+          trigger: manual
+          <<: *commonBuildAndDeploy

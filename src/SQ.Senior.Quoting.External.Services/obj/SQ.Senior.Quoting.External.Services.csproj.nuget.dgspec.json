@@ -1,0 +1,338 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.External.Services\\SQ.Senior.Quoting.External.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.DrxServices\\SQ.Senior.Clients.DrxServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.DrxServices\\SQ.Senior.Clients.DrxServices.csproj",
+        "projectName": "SQ.Senior.Clients.DrxServices",
+        "projectPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.DrxServices\\SQ.Senior.Clients.DrxServices.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.DrxServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/sqappdev/_packaging/AppDevNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.QrsService\\SQ.Senior.Clients.QrsService.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.QrsService\\SQ.Senior.Clients.QrsService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.QrsService\\SQ.Senior.Clients.QrsService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.QrsService\\SQ.Senior.Clients.QrsService.csproj",
+        "projectName": "SQ.Senior.Clients.QrsService",
+        "projectPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.QrsService\\SQ.Senior.Clients.QrsService.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.QrsService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/sqappdev/_packaging/AppDevNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.DatabaseAdapter\\SQ.Senior.Quoting.DatabaseAdapter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.DatabaseAdapter\\SQ.Senior.Quoting.DatabaseAdapter.csproj",
+        "projectName": "SQ.Senior.Quoting.DatabaseAdapter",
+        "projectPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.DatabaseAdapter\\SQ.Senior.Quoting.DatabaseAdapter.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.DatabaseAdapter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/sqappdev/_packaging/AppDevNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.External.Services\\SQ.Senior.Quoting.External.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.External.Services\\SQ.Senior.Quoting.External.Services.csproj",
+        "projectName": "SQ.Senior.Quoting.External.Services",
+        "projectPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.External.Services\\SQ.Senior.Quoting.External.Services.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.External.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/sqappdev/_packaging/AppDevNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.DrxServices\\SQ.Senior.Clients.DrxServices.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.DrxServices\\SQ.Senior.Clients.DrxServices.csproj"
+              },
+              "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.QrsService\\SQ.Senior.Clients.QrsService.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Clients.QrsService\\SQ.Senior.Clients.QrsService.csproj"
+              },
+              "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.DatabaseAdapter\\SQ.Senior.Quoting.DatabaseAdapter.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Downloads\\sq.senior.quotingservice\\sq.senior.quotingservice\\sq.senior.quotingservice\\src\\SQ.Senior.Quoting.DatabaseAdapter\\SQ.Senior.Quoting.DatabaseAdapter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

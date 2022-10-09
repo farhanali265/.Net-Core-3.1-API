@@ -1,0 +1,12 @@
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\bin\Debug\netstandard2.0\SQ.Senior.SpecialEnrollmentPeriods.deps.json
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\bin\Debug\netstandard2.0\SQ.Senior.SpecialEnrollmentPeriods.dll
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\bin\Debug\netstandard2.0\SQ.Senior.SpecialEnrollmentPeriods.pdb
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\bin\Debug\netstandard2.0\SQ.Senior.Quoting.Internal.DatabaseAdapter.dll
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\bin\Debug\netstandard2.0\SQ.Senior.Quoting.Internal.DatabaseAdapter.pdb
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\obj\Debug\netstandard2.0\SQ.Senior.SpecialEnrollmentPeriods.csprojAssemblyReference.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\obj\Debug\netstandard2.0\SQ.Senior.SpecialEnrollmentPeriods.AssemblyInfoInputs.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\obj\Debug\netstandard2.0\SQ.Senior.SpecialEnrollmentPeriods.AssemblyInfo.cs
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\obj\Debug\netstandard2.0\SQ.Senior.SpecialEnrollmentPeriods.csproj.CoreCompileInputs.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\obj\Debug\netstandard2.0\SQ.Senior.SpecialEnrollmentPeriods.csproj.CopyComplete
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\obj\Debug\netstandard2.0\SQ.Senior.SpecialEnrollmentPeriods.dll
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.SpecialEnrollmentPeriods\obj\Debug\netstandard2.0\SQ.Senior.SpecialEnrollmentPeriods.pdb

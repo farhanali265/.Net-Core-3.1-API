@@ -1,0 +1,36 @@
+{
+  "executionRoleArn": "__EXECUTION_ROLE_ARN__",
+  "containerDefinitions": [
+    {
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/__CLUSTER__/__SERVICE_NAME__",
+          "awslogs-region": "us-west-2",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "environment": [
+        {
+          "name": "ASPNETCORE_ENVIRONMENT",
+          "value": "__ENVIRONMENT__"
+        }
+      ],
+      "secrets": [],
+      "image": "__LABEL__",
+      "name": "app",
+      "portMappings": [
+        {
+          "hostPort": 0,
+          "protocol": "tcp",
+          "containerPort": 80
+        }
+      ]
+    }
+  ],
+  "memory": "1991",
+  "taskRoleArn": "__TASK_ROLE_ARN__",
+  "family": "storage_console",
+  "networkMode": "bridge",
+  "cpu": "1024"
+}

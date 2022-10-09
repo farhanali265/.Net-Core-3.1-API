@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SQ.Senior.Quoting.External</name>
+    </assembly>
+    <members>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.FipsController.GetFipsAsync(System.String)">
+            <summary>
+            Returns a list of FIPS mappings 
+            </summary>
+            <param name="zipCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.PharmacyController.SavePharmacy(SQ.Senior.Quoting.External.Services.ViewModels.Pharmacy.SavePharmacyRequest,System.String)">
+            <summary>
+            Save pharmacy by pharmcy search properties
+            </summary>
+            <param name="savePharmacyRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.PharmacyController.DeletePharmacy(System.String,System.String)">
+            <summary>
+            Delete pharmacy by pharmacyId and userId
+            </summary>
+            <param name="pharmacyId"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.PharmacyController.GetPharmacy(System.String)">
+            <summary>
+            Get pharmacy by userId
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.PharmacyController.SearchPharmacies(SQ.Senior.Quoting.External.Services.ViewModels.Pharmacy.SearchPharmaciesRequest)">
+            <summary>
+            Searches pharmacies by zipcode, name and/or distance
+            </summary>
+            <param name="searchRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.PlanController.GetPlans(SQ.Senior.Quoting.External.Services.ViewModels.Plan.GetPlansRequest)">
+            <summary>
+            Get Plans by userId, zip, fips
+            </summary>
+            <param name="getPlansRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.PrescriptionController.Prescriptions(System.String)">
+            <summary>
+            Get prescriptions by userId 
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.PrescriptionController.EditPrescription(SQ.Senior.Quoting.External.Services.ViewModels.Prescription.PrescriptionRequest,System.String,System.Int32)">
+            <summary>
+            Edit prescription by prescription,userId and/or packageName
+            </summary>
+            <param name="prescriptionRequest"></param>
+            <param name="userId"></param>
+            <param name="prescriptionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.PrescriptionController.SavePrescription(System.Collections.Generic.List{SQ.Senior.Quoting.External.Services.ViewModels.Prescription.PrescriptionRequest},System.String)">
+            <summary>
+            Save prescription by prescriptions,userId and/or packageName in each object
+            </summary>
+            <param name="prescriptionsRequest"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.PrescriptionController.SearchPrescriptions(System.String)">
+            <summary>
+            Search prescriptions by prefix prescription name from drx api.
+            </summary>
+            <param name="drugName "></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.ProviderController.GetAllProviders(System.Boolean,System.String)">
+            <summary>
+            Get providers with userId and activeprovider bit
+            </summary>
+            <param name="userId"></param>   
+            <param name="isActive"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.ProviderController.GetNpiResults(SQ.Senior.Quoting.External.Services.ViewModels.Providers.SearchProvidersRequest)">
+            <summary>
+            Searches NPI registry with the provided request
+            </summary>
+            <param name="searchProvidersRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.ProviderController.AddProvider(SQ.Senior.Quoting.External.Services.ViewModels.Providers.AddProviderRequest,System.String)">
+            <summary>
+            Save Provider by national provider identifier and userId
+            </summary>
+            <param name="addProviderRequest"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SQ.Senior.Quoting.External.Controllers.ProviderController.DeleteProvider(System.String,System.Int32)">
+            <summary>
+            Delete provider with userId and providerId
+            </summary>
+            <param name="userId"></param>   
+            <param name="providerId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

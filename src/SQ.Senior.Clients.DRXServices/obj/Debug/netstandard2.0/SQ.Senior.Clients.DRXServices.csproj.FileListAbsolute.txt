@@ -1,0 +1,13 @@
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\bin\Debug\netstandard2.0\SQ.Senior.Clients.DrxServices.deps.json
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\bin\Debug\netstandard2.0\SQ.Senior.Clients.DrxServices.dll
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\bin\Debug\netstandard2.0\SQ.Senior.Clients.DrxServices.pdb
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\bin\Debug\netstandard2.0\SQ.Senior.Clients.QrsService.dll
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\bin\Debug\netstandard2.0\SQ.Senior.Clients.QrsService.pdb
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\bin\Debug\netstandard2.0\SQ.Senior.Clients.QrsService.dll.config
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\obj\Debug\netstandard2.0\SQ.Senior.Clients.DrxServices.csprojAssemblyReference.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\obj\Debug\netstandard2.0\SQ.Senior.Clients.DrxServices.AssemblyInfoInputs.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\obj\Debug\netstandard2.0\SQ.Senior.Clients.DrxServices.AssemblyInfo.cs
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\obj\Debug\netstandard2.0\SQ.Senior.Clients.DrxServices.csproj.CoreCompileInputs.cache
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\obj\Debug\netstandard2.0\SQ.Senior.Clients.DrxServices.csproj.CopyComplete
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\obj\Debug\netstandard2.0\SQ.Senior.Clients.DrxServices.dll
+G:\Work\SourceCode\senior-external-qe\sq.senior.quotingservice\sq.senior.quotingservice\src\SQ.Senior.Clients.DrxServices\obj\Debug\netstandard2.0\SQ.Senior.Clients.DrxServices.pdb
